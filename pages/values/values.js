@@ -10,7 +10,7 @@ function pValueMadeMonth() {
 }
 
 function initialPage() {
-    window.location.href = '../../initialPage.html'
+    window.location.href = '../../index.html'
 }
 
 // Repassa o valor da quantidade vendida mensalmente

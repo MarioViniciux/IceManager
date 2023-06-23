@@ -42,13 +42,13 @@ function getValue() {
     localStorage.totalValueMadeMonth = totalValueMadeMonth
     localStorage.totalValueMadeDay = saveValueMadeDay
     localStorage.totalMadeNoReset = totalMadeNoReset
-    //modal.show()
+    modal.show()
 
     return saveValueMadeDay
 }
 
 // Retorna a pessoa para a pagina inicial após fechar o modal.
 function initialPage() {
-    //modal.close()
+    modal.close()
     window.location.href = '../../index.html'
 }

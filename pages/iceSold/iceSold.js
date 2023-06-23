@@ -73,5 +73,5 @@ function getValue() {
 // Retorna a pessoa para a pagina inicial após fechar o modal.
 function initialPage() {
     modal.close()
-    window.location.href = '../../../initialPage.html'
+    window.location.href = '../../initialPage.html'
 }

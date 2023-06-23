@@ -42,6 +42,7 @@ function getValue() {
     localStorage.totalValueMadeMonth = totalValueMadeMonth
     localStorage.totalValueMadeDay = saveValueMadeDay
     localStorage.totalMadeNoReset = totalMadeNoReset
+    
     modal.show()
 
     return saveValueMadeDay

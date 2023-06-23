@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="iceSold.css">
+    <script defer src="iceSold.js"></script>
+    
+    <title>Gelos vendidos</title>
+</head>
+<body>
+    <div>
+        <div class="input_value">
+            <label for="valueSold">Quantidade total vendida: </label>
+            <input type="number" class="valueSold" id="valueSold" autofocus oninput="validateInput()">
+            
+            <label for="valueSoldAmount">Quantidade total vendida em grandes valores (10 unidades ou  mais): </label>
+            <input type="number" class="valueSoldAmount" id="valueSoldAmount" autofocus oninput="validateInput()">
+            <button type="submit" class="submitSoldBotton" id="submitSoldBotton" onclick="getValue()" disabled>Continuar</button>
+        </div>
+        <dialog class="addValue">
+            <p>Valor adicionado ao número total</p>
+            <button type="submit" class="initial" onclick="initialPage()">OK</button>
+        </dialog>
+    </div>
+</body>
+</html>

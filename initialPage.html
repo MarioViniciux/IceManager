@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="./images/logo_icon.png">
+    <link rel="stylesheet" href="initialPage.css">
+    <script defer src="initialPage.js"></script>
+
+    <title>Bald do Gelo</title>
+</head>
+<body onpageshow="resetAll()">
+    <div class="wrap">
+        <div class="buttons">
+            <button class="iceMade" onclick="showMade()">Adicionar pacotes produzidos</button>
+            <button class="iceSold" onclick="showSold()">Adicionar pacotes vendidos</button>
+            <button class="historic" onclick="showHistoric()">Histórico</button>
+            <button class="values" onclick="showValues()">Valores</button>
+            <button class="update" onclick="resetMonth(), resetDay()">Update</button>
+        </div>  
+    </div>
+</body>
+</html> 

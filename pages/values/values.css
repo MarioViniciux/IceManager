@@ -1,0 +1,119 @@
+body {
+    background-color: gray;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: dimgray;
+    border-radius: 10px;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 20%;
+}
+
+.firstLabel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center; 
+    font-size: 25px;
+    margin: 10px;
+}
+
+.textOne {
+    margin: 5px;
+}
+
+.secondLabel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center; 
+    font-size: 25px;
+    margin: 10px;
+}
+
+.textTwo {
+    margin: 5px;
+}
+
+.thirdLabel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center; 
+    font-size: 25px;
+    margin: 10px;
+}
+
+.textThree {
+    margin: 5px;
+}
+
+.fourthLabel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center; 
+    font-size: 25px;
+    margin: 10px;
+}
+
+.textFour {
+    margin: 5px;
+}
+
+.fifthLabel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center; 
+    font-size: 25px;
+    margin: 10px;
+}
+
+.textFive {
+    margin: 5px;
+}
+
+.sixthLabel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center; 
+    font-size: 25px;
+    margin: 10px;
+}
+
+.textSix {
+    margin: 5px;
+}
+
+.seventhLabel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center; 
+    font-size: 25px;
+    margin: 10px;
+}
+
+.textSeven {
+    margin: 5px;
+}
+
+.btn {
+    border-radius: 5px;
+    width: 100vh;
+    max-width: 10%;
+    margin: 40px;
+    cursor: pointer;
+    font-size: 1em;
+    padding: 5px;
+    background-color: rgb(64, 74, 74);
+    border: 2px solid black;
+    color: rgb(198, 209, 209);;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="values.css">
+    <script defer src="values.js"></script>
+    
+    <title>Valores</title>
+</head>
+<body onpageshow="allInOne()">
+    <div class="content">
+        <div class="firstLabel">
+            <label for="quantidadefeita">Quantidade produzida hoje: </label>
+            <p id="quantidadeFeitaDia" class="textOne"></p>
+        </div>
+        <div class="secondLabel">
+            <label for="quantidadevenda">Quantidade vendida hoje: </label>
+            <p id="quantidadeVendaDia" class="textTwo"></p>
+        </div>
+        <div class="thirdLabel">
+            <label for="quantidadevenda">Quantidade produzida no mês: </label>
+            <p id="quantidadeFeitaMes" class="textThree"></p>
+        </div>
+        <div class="fourthLabel">
+            <label for="quantidadevenda">Quantidade vendida no mês: </label>
+            <p id="quantidadeVendaMes" class="textFour"></p>
+        </div>
+        <div class="fifthLabel">
+            <label for="remain">Quantidade restante de pacotes: </label>
+            <p id="remain" class="textFive"></p>
+        </div>
+        <div class="sixthLabel">
+            <label for="moneyDay">Dinheiro no dia: </label>
+            <p id="moneyDay" class="textSix"></p>
+        </div>
+        <div class="seventhLabel">
+            <label for="moneyMonth">Dinheiro no mês: </label>
+            <p id="moneyMonth" class="textSeven"></p>
+        </div>
+    </div>
+    <div class="button">
+        <button class="btn" onclick="initialPage()">Retornar</button>
+    </div>
+</body>
+</html>

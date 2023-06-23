@@ -131,7 +131,7 @@ function changeTextEleven() {
 }
 
 function initialPage() {
-    window.location.href = '../../initialPage.html'
+    window.location.href = '../../index.html'
 }
 
 function executation() {

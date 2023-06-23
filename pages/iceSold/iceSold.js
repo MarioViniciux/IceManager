@@ -58,7 +58,7 @@ function getValue() {
     localStorage.totalSoldNoReset = totalSoldNoReset
 
     //abrindo o modal
-    modal.show()
+    //modal.show()
 
     // Faz os calculos dos valores vendidos e adiciona no localStorage
     var fiveReiasSold = parseInt(totalValueSoldUniq) * 5
@@ -72,6 +72,6 @@ function getValue() {
 
 // Retorna a pessoa para a pagina inicial após fechar o modal.
 function initialPage() {
-    modal.close()
+    //modal.close()
     window.location.href = '../../index.html'
 }

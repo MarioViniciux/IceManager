@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="iceMade.css">
+    <script defer src="iceMade.js"></script>
+    
+    <title>Gelos produzidos</title>
+</head>
+<body>
+    <div class="wrap">
+        <div class="input_value">
+            <label for="valueMade">Quantidade produzida: </label>
+            <input type="number" class="valueMade" id="valueMade" autofocus oninput="validateInput()">
+            <button type="submit" class="submitValueButton" id="submitValueButton" onclick="getValue()" disabled>Continuar</button>
+        </div>  
+        <dialog class="addValue">
+            <p>Valor adicionado ao número total</p>
+            <button type="submit" class="initial" onclick="initialPage()">OK</button>
+        </dialog>
+    </div>
+</body>
+</html>

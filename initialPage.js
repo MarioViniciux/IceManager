@@ -1,5 +1,5 @@
 function showMade() {
-    window.location.href = "pages//iceMade/iceMade.html";
+    window.location.href = "pages/iceMade/iceMade.html";
 }
 
 function showSold() {
